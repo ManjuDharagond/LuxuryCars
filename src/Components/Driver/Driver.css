@@ -1,0 +1,137 @@
+.driver-text-container {
+  position: absolute;
+  top: 7%;
+  left: 3.5%;
+}
+
+.driver-text-container-h2 h2 {
+  position: relative;
+  top: 0%;
+  left: 0%;
+  /* max-width: 750px; */
+  max-width: 45vw;
+  color: #fff;
+  font-family: DM Serif Display;
+  /* font-size: 45px; */
+  /* font-size: 2.817rem; */
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 2px;
+}
+
+.sub-email-container {
+  /* margin-top: 20px; */
+  position: relative;
+  top: 17%;
+}
+
+.sub-email-container p {
+  color: #fff;
+  font-family: Roboto;
+  /* font-size: 30px; */
+  font-size: 1.955vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.driver-input {
+    position: relative;
+  color: rgba(0, 0, 0, 0.35);
+  font-family: Roboto;
+  font-size: 30px;
+  font-size: 1.95vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  border-radius: 10px;
+  background: #e5e5e5;
+  border: none;
+  padding-inline-start: 2vw;
+}
+
+.driver-email-input {
+    position: relative;
+  /* width: 958px; */
+  width: 70.85%;
+  /* height: 93px; */
+  /* height: 77px; */
+  height: 82%;
+  border-radius: 10px;
+  background: #e5e5e5;
+}
+
+.driver-email-input button {
+  /* position: relative; */
+  position: absolute;
+  right: 0%;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 1.95vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  /* width: 170px; */
+  width: 17.8%;
+  height: 95%;
+  border-radius: 10px;
+  margin: 1.7px 5px 0px 0px;
+  background: #21408e;
+}
+
+
+@media (min-width:500px) and (max-width:900px) {
+    .driver-email-input {
+      width: 60.85%;
+      height: 62%;
+    }
+
+    .driver-email-input button {
+        width: 15%;
+        height: 90%;
+        margin: 2px 2px 0px 0px;
+    }
+
+    .sub-email-container {
+        top: 15%;
+      }
+}
+
+@media (min-width:250px) and (max-width:500px) {
+    .driver-email-input {
+        /* width: 250px; */
+        width: 56.8%;
+        /* height: 27px; */
+        height: 62%;
+        
+    }
+
+    .driver-email-input button {       
+        /* width: 56.526px; */
+        width: 23%;
+        height: 23.25px;
+        height: 80%;
+        margin: 3px 2px 0px 0px;
+    }
+
+    .sub-email-container {
+        top: 13%;
+      }
+}
+
+@media (min-width:230px) and (max-width:350px) {
+    .sub-email-container {
+        top: 8%;
+    }
+
+    .driver-text-container-h2 h2 {
+        margin-bottom: 1px;
+    }
+}

@@ -1,0 +1,333 @@
+.sale-car-details-p{
+color: #000;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: -7px;
+margin-bottom: 6px;
+text-transform: capitalize;
+}
+
+
+.sale-car-price-p{
+    color: #21408E;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    margin-top: 30px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.sale-car-top-title{
+    color: #000;
+    font-family: DM Serif Display;
+    font-size: 45px;
+    font-size: 2.82rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin:45px 0px;
+    
+}
+
+.sale-car-card{
+width: 98.45%;
+max-width: 311px;
+/* height: 565px; */
+min-height: 565px;
+flex-shrink: 0;
+border-radius: 21px 21px 0px 0px;
+background: #CBC9C2;
+box-shadow: 5px 8px 19px -2px rgba(0, 0, 0, 0.44);
+}
+
+.sale-car-title{
+/* width: 309px; */
+height: 167px;
+/* height: 30vh;  */
+max-height: 167px;
+flex-shrink: 0;
+border-radius: 21px 21px 0px 0px;
+background: #FAF5F8;
+}
+
+
+.sale-car-image{
+    height: 255px;
+}
+.sale-car-image img {
+    position: absolute;
+    top: 40%;
+    max-width: 500px;
+    object-fit: contain;
+}
+
+
+
+.sale-car-img1{
+    width: 110%;
+    height: 44%;
+    margin-top: -8px;
+    margin-left: -12px;
+    z-index: 10;
+}
+
+
+
+.sale-car-img2{
+    width: 112%;
+    height: 40%;
+    margin-left: -25px;
+    margin-top: 10px;
+    z-index: 10;
+}
+.sale-car-img3{
+    width: 135%;
+    height: 43.5%; 
+    /* object-fit: cover; */
+    margin-left: -40px;
+    z-index: 10;
+}
+.sale-car-img4{
+    width: 100%;
+    height: 38%;    
+    margin-left: -15px;
+    margin-top: 5px;
+    z-index: 10;
+}
+
+
+
+
+.sale-car-details{
+min-height: 143px;
+margin-top: 10px;
+border-radius: 21px 21px 0px 0px;
+background: #FFF;
+z-index: 100;
+}
+
+
+.sale-car-title h4{
+    width: 224px;
+    height: 38px;
+    flex-shrink: 0;
+    color: #21408E;
+    font-family: Bodoni MT;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.sale-car-button{
+    width: 53%;
+    height: 40px;
+border-radius: 12px;
+background: #21408E;
+color: #FFF;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+position: absolute;
+bottom: -3%;
+left: 25%;
+}
+
+.sale-car-details img{
+    margin-right: 3px;
+}
+
+.sale-car-details svg{
+    margin-right: 5px;
+    margin-top: -5px;
+}
+
+.sale-car-details .d-flex{
+    text-align: center;
+}
+
+
+.sale-car-luxury-title{
+color: #000;
+font-family: DM Serif Display;
+font-size: 45px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+margin: 20px 0px;
+}
+
+.sale-car-luxury-brand div{
+    width: 181px;
+height: 55px;
+flex-shrink: 0;
+border-radius: 13px;
+background: #C4C4C4;
+}
+
+
+.sale-car-luxury-brand {
+    margin: 0px;
+}
+
+.sale-car-luxury-container p{
+    color: #000;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+margin: 10px 0px;
+}
+
+.yellow-rectangle{
+width: 72px;
+height: 3px;
+flex-shrink: 0;
+background: #F1BC00;
+margin-bottom: 30px;
+}
+
+
+
+.sale-car-see-more{
+    color: #000;
+font-family: DM Serif Display;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+
+
+
+@media (max-width:450px) {
+    .sale-car-luxury-title{
+        font-size: 25px;
+    }
+}
+
+@media (min-width:930px) and (max-width:1378px) {
+    .sale-car-price-p{
+        font-size: 1.3rem;     
+        margin-top: 10px;
+    }
+    .sale-car-top-title{
+        font-size: 2.32rem;
+        margin:40px 0px;
+        
+    }
+
+    .sale-car-title h4{
+        width: 80%;
+        height: 38px;
+        font-size: 1.8rem ;
+    }
+}
+@media (min-width:630px) and (max-width:930px) {
+    .sale-car-price-p{
+        font-size: 1.2rem;     
+        margin-top: 10px;
+    }
+    .sale-car-top-title{
+        font-size: 2rem;
+        margin:30px 0px;
+        
+    }
+
+    .sale-car-title h4{
+        font-size: 1.6rem ;
+    }
+}
+@media (min-width:330px) and (max-width:630px) {
+    .sale-car-price-p{
+        font-size: 1.1rem;     
+        margin-top: 10px;
+    }
+    .sale-car-top-title{
+        font-size: 1.4rem;
+        /* margin:30px 0px; */
+        padding: 5px;
+    }
+
+    .sale-car-title h4{
+        font-size: 1.4rem ;
+    }
+
+}
+
+
+@media (min-width:250px) and (max-width:330px){
+    .sale-car-price-p{
+        font-size: 1.1rem;     
+        margin-top: 10px;
+    }
+    .sale-car-top-title{
+        font-size: 1.05em;
+        padding:10px 10px 0px 10px;
+        margin-top: 45px;
+        margin-bottom: 25px;
+    }
+
+    .sale-car-title h4{
+        font-size: 1.4rem ;
+    }
+    
+}
+
+@media (min-width:342px) and (max-width:500px) {
+    .sale-car-image img {
+        top: 40%;
+        max-width: 360px;
+        object-fit: contain;
+    }
+
+    .sale-car-img3{
+        margin-left:-25px;
+        object-fit: contain;
+    }   
+    
+}
+
+@media (min-width:283px) and (max-width:342px) {
+    .sale-car-image img {
+        top: 40%;
+        max-width: 300px;
+        object-fit: contain;
+    }
+
+    .sale-car-img3{
+        margin-left:-25px;
+        width: 180%;        
+    }   
+    
+}
+
+@media (min-width:240px) and (max-width:283px) {
+    .sale-car-image img {
+        top: 40%;
+        max-width: 250px;
+        object-fit: contain;
+    }
+
+    .sale-car-img3{
+        margin-left:-25px;
+        object-position: 10px;
+    }   
+    
+}
+
+
+

@@ -1,0 +1,280 @@
+.book-container{
+    margin-top: 4%;
+    width: 90%;
+    margin-bottom: 20px;
+    background: #C4C4C4;
+    height: 19.6875rem 
+}
+
+
+h1{
+    /* width: 37.63213rem; */
+/* height: 3.75rem; */
+color: #081630;
+font-family: DM Serif Display;
+font-size: 2.4375rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+
+p{
+width: 55%;
+/* height: 5.25rem; */
+flex-shrink: 0;
+color: rgba(0, 0, 0, 0.66);
+font-family: Roboto;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.book-button{
+    border-radius: 1.625rem;
+    background: #21408E;
+    color: white;
+    min-width: 4.54844rem;
+    width: 80%;
+    height: 3.75rem;
+    font-family: Roboto;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 25%;
+}
+
+.input-buttons{
+    margin: 40px 0px 40px 0px;
+    position: relative;
+    right: 3.6%;
+}
+
+.input-button{
+    margin-right: 3px;
+}
+
+
+.input-svg{
+    width: 100%;
+    z-index: 10;
+}
+
+
+.input-svg svg{
+    position: relative;
+    left:80%;
+    top: 27%;
+}
+
+.input-svg-date svg{
+    position: relative;
+    left:80%;
+    top: 27%;
+    z-index: 10;
+}
+
+.input-text{
+    height: 3.75rem;
+}
+
+.date-picker{
+    border-radius: 1.625rem;
+    background: #FFF9F9;
+    max-height: 3.75rem;
+    min-width: 15vw;
+    width: 100%;
+}
+
+
+
+
+@media (min-width:250px){
+    .book-button{
+        position: inherit;
+        left: 50%;
+        /* margin-left: 50px; */
+    }  
+}
+
+@media (min-width:992px){
+    .col{
+        margin-top: 1.44rem;
+        margin-left: 2.87rem;
+    }
+}
+@media (max-width:713px){
+    .input-buttons {
+        margin: 19px 0px 0px 0px;
+    }
+}
+@media (max-width:992px){
+    .col{
+        margin-top: 1.44rem;
+        margin-left: 0.7rem;
+    }
+}
+
+@media (min-width:605px) and (max-width:992px) {
+    .book-container{
+        max-height:13.75rem;
+    }
+}
+
+
+@media (max-width:442px){
+    .book-container {
+      max-height: 8.75rem;
+}
+}
+
+@media (max-width: 467px){
+    .input-buttons{
+    margin: 0px 0px;
+}
+}
+
+@media (min-width:250px) and (max-width:392px){
+    h1{
+        font-size: 0.825rem;
+    }
+    p{
+        font-size: 0.55rem;
+        width: 97%;
+    }
+    .book-container{
+        max-height:8.75rem;
+    }
+    .input-button {
+        margin-right: 0px;
+    }
+
+    .book-button-div{
+        padding-left: 0px;
+        height: 38px;
+        width: 57px;
+        left: -12%;  
+        top: 0%;
+    }
+    .input-svg svg {
+        width: 15px;
+        left: 70%;
+        top: -15%;
+    }
+   
+    .input-svg-date{
+        position: absolute;
+        bottom: -7px;
+        width: 90%;
+    }
+    .input-svg-date svg{
+        top: 0%;
+        width: 22px;
+    }
+
+    .book-button{
+        height: 1.3rem;
+        min-width: 3.6rem;
+        font-size: 0.6rem;
+        /* width: 50%; */
+    }
+
+    .input-text{
+        height: 1.1rem;
+    }
+}
+@media (min-width:392px) and (max-width:605px){
+    h1{
+        font-size: 0.875rem;
+    }
+    p{
+        font-size: 0.625rem;
+        width: 85%;
+    }
+    .book-container{
+        max-height:8.75rem;
+    }
+    .input-button {
+        margin-right: 0px;
+    }
+
+    .book-button-div{
+        padding-left: 0px;
+        left: -4%;
+    }
+    .input-svg svg {
+        width: 20px;
+        left: 80%;
+        top: 0%;
+    }
+    .input-svg-date svg{
+        top: 0%;
+        width: 25px;
+    }
+
+    .book-button{
+        height: 1.6rem;
+        font-size: 0.7rem;
+    }
+
+    .input-text{
+        height: 1.6rem;
+    }
+}
+
+
+
+@media (min-width:992px) and (max-width:1342px){
+    h1{
+        font-size: 2.1375rem;;
+    }
+    p{
+        font-size: 1.3rem
+    };
+}
+
+
+@media (min-width:467px) and(max-width:767px) {
+        .input-buttons{
+        left: -7%;   
+        margin: 20px 0px;
+
+    }
+}
+
+@media  (max-width:767px){
+    
+    .input-button{
+        padding: 0px 2px;
+    }
+    
+}
+
+
+ @media(min-width:605px) and (max-width:992px){
+    h1{
+        font-size: 1.4375rem;
+    }
+    p{
+        font-size: 0.8rem
+    }
+
+    .book-button-div{
+        padding-left: 0px;
+        /* left: 40%; */
+        /* margin-left: 50px; */    
+    }
+
+    .book-button{
+        height: 2.75rem;
+        font-size: 1.1rem;
+    }
+
+    .input-text{
+        height:45px;
+    }
+}
+
+

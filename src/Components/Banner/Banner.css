@@ -1,0 +1,360 @@
+.banner{
+    position: relative;
+    top: 0px;
+    border-top: 2.3rem solid #c4c4c4;
+    border-right: 0.5rem solid #c4c4c4;
+    height: auto;
+    width: auto;
+}
+
+
+
+.banner-content{
+  position: absolute;
+  width: 18%;
+  height: 37.6%;
+  z-index: 10;
+  /* overflow: hidden; */
+  right: 10%;
+  bottom: 20%;
+  padding: 3px 0px;
+
+}
+
+.safer-faster{
+  width: 100%;
+height: 5.3125rem;
+  display: inline-block;
+  color: #000;
+font-family: DM Serif Display;
+font-size: 2rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.get-in-touch-container{
+  max-width: 16.75rem;
+  margin: 10px 0px;
+}
+
+.get-in-touch{
+margin: 0;
+color: #000;
+font-family: Roboto;
+font-size: 1.625rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.bottom-rent{
+  display: flex;
+  margin: 10px 0px;
+  width: 60%;
+  height: 27%;  
+  justify-content: left;
+  position: absolute;
+}
+
+.rent-now{
+  display: inline-block;
+  color: #FFF;
+font-family: Roboto;
+font-size: 1.375rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+z-index: 100;
+position: absolute;
+text-align: center;
+left: 20%;
+top: 13%;
+}
+
+
+.urus-mobile{
+  width: 100%;
+}
+
+
+@media (max-width: 577px) {
+  .banner{
+    border:none;
+  }
+  .urus-desktop{
+    display: none;
+  }
+}
+
+@media(min-width:577px){
+  .urus-mobile{
+    display: none;
+  }
+}
+
+
+
+@media (min-width: 200px) and (max-width:340px) {
+  .banner-content{
+    right: 0%;
+    bottom: 5%;
+    width: 22%;
+    margin-right: 5px;
+    height: 65%;
+  }
+  .get-in-touch-container{
+    margin: 2px 0px;
+  }
+
+  .safer-faster{
+    font-size: 0.5rem;
+    height: 1.35rem;
+    
+  }
+  .get-in-touch{
+    font-size:0.33rem;
+  }
+  .rent-now{
+    margin-top: 7.8px;
+    margin-left: 0px;
+    font-size: 0.3rem;
+  }
+  .bottom-rent{
+    margin: 0px;
+  }
+  .bottom-rent div svg{
+    width: 100%;
+    margin: 0px;
+  }
+}
+
+
+
+
+@media (min-width: 340px) and (max-width:452px) {
+  .banner-content{
+    right: 0%;
+    bottom: 5%;
+    width: 22%;
+    margin-right: 5px;
+    height: 50%;
+  }
+  .get-in-touch-container{
+    margin: 2px 0px;
+  }
+
+  .safer-faster{
+    font-size: 0.6rem;
+    height: 1.35rem;
+    
+  }
+  .get-in-touch{
+    font-size:0.43rem;
+  }
+  .rent-now{
+    margin-top: 6.3px;
+    margin-left: 0px;
+    font-size: 0.4rem;
+  }
+  .bottom-rent{
+    margin: 0px;
+  }
+  .bottom-rent div svg{
+    width: 100%;
+    margin: 0px;
+  }
+}
+
+
+
+@media (min-width: 452px) and (max-width:555px) {
+
+  
+  .banner-content{
+    right: 4%;
+    bottom: 5%;
+    width: 22%;
+    height: 50%;
+  }
+  .safer-faster{
+    font-size: 0.8rem;
+    height: 2.5125rem;
+    
+  }
+  .get-in-touch-container{
+    margin: 2px 0px;
+  }
+  .get-in-touch{
+    font-size:0.63rem;
+  }
+  .rent-now{
+    margin-top: 3.3px;
+    margin-left: -4px;
+    font-size: 0.6rem;
+  }
+  .bottom-rent div svg{
+    width: 100%;
+    height: 25px;
+  }
+
+}
+
+
+@media (min-width: 555px) and (max-width:650px) {
+
+  .get-in-touch-container{
+    margin: 0px;
+  }
+  
+  .banner-content{
+    right: 4%;
+    bottom: 5%;
+    width: 22%;
+    height: 50%;
+  }
+  .safer-faster{
+    font-size: 1rem;
+    height: 3.4125rem;
+    
+  }
+  .get-in-touch{
+    font-size:0.73rem;
+  }
+  .rent-now{
+    padding-top: 2.5px;
+    margin-left: -4px;
+    font-size: 0.8rem;
+  }
+  .bottom-rent div svg{
+    width: 100%;
+  }
+
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+  .banner{
+    border-top: 1rem solid #c4c4c4;
+    border-right: 0.2rem solid #c4c4c4;    
+  }
+
+}
+
+
+
+@media (min-width: 850px) and (max-width:992px) {
+  .get-in-touch-container{
+    margin: 0px;
+  }
+  
+  .banner-content{
+    right: 0%;
+    width: 25%;
+    height: 40%;
+  }
+  .safer-faster{
+    font-size: 1.15rem;
+    height: 4.0125rem;
+  }
+  .get-in-touch{
+    font-size:0.85rem;
+  }
+  .rent-now{
+    padding-top: 1px;
+    margin-left: -1px;
+    font-size: 0.9rem;
+  }
+  .bottom-rent div svg{
+    width: 80%;
+  }
+
+}
+
+
+@media (min-width: 650px) and (max-width:850px) {
+
+  .get-in-touch-container{
+    margin: 0px;
+  }
+  
+  .banner-content{
+    right: 0%;
+    bottom: 9%;
+    width: 22%;
+    height: 45%;
+  }
+  .safer-faster{
+    font-size: 1rem;
+    height: 3.4125rem;
+    
+  }
+  .get-in-touch{
+    font-size:0.73rem;
+  }
+  .rent-now{
+    padding-top: 1px;
+    margin-left: -4px;
+    font-size: 0.9rem;
+  }
+  .bottom-rent div svg{
+    width: 100%;
+  }
+
+}
+
+
+@media (min-width: 993px) and (max-width:1089px) {
+  .banner-content{
+    /* right: 10%; */
+    width: 21%;
+    height: 40%;
+  }
+}
+
+@media (min-width: 1230px) and (max-width: 1512px) {
+
+  .get-in-touch-container{
+    margin: 7px 0px;
+  }
+  .bottom-rent{
+    margin: 8px 0px;
+  }
+
+  .banner-content{
+    right: 6%;
+  }
+  .safer-faster{
+    font-size: 1.8rem;
+  }
+  .get-in-touch{
+    font-size: 1.2rem;
+  }
+  .rent-now{
+    font-size: 1.2rem;
+  }
+  
+}
+
+
+@media (min-width:992px) and (max-width:1230px){
+      .get-in-touch-container{
+        margin: 2px 0px;
+      }
+      
+      .banner-content{
+        right: 5%;
+        /* width: 22%; */
+      }
+      .safer-faster{
+        font-size: 1.6rem;
+        height: 4.8125rem;
+      }
+      .get-in-touch{
+        font-size:1rem;
+      }
+      .rent-now{
+        font-size: 1rem;
+      }
+}

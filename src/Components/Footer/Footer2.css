@@ -1,0 +1,409 @@
+.footer-blue-container{
+    /* width: 1440px; */
+    height: 595px;
+    background: #081630;
+}
+
+.footer-h6-header{
+    color: #FFF;
+font-family: DM Serif Display;
+/* font-size: 28px; */
+font-size: 1.87vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+width: 300px;
+height: 45px;
+}
+
+.footer-text{
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+    font-family: Roboto;
+    width: 100%;
+    font-size:1.68vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize; 
+}
+
+
+
+.footer-text-container {
+    width: 217px;
+    height: 304px;
+    margin-top: 146px;
+    padding: 0px;
+    
+}
+
+.footer-horizontal-line{
+    margin: auto;
+    /* width: 1079px; */
+    margin-top: 60px;
+    width: 81vw;
+    height: 2px;
+    flex-shrink: 0;
+    background: #FFF9F9;
+}
+
+.footer-text-container p{
+    width: 100%;
+}
+
+
+.footer-text-1{
+    width: 217px;
+    height: 204px;
+}
+.footer-text-2{
+    width: 217px;
+    height: 204px;
+}
+.footer-text-3{
+    width: 254px;
+    height: 204px;
+}
+
+.footer-social-media{
+    margin-top: 15px;
+    padding: 0px 130px;
+}
+.footer-social-media svg{
+    margin: 0px 15px; 
+}
+
+.footer-luxurycars{
+    width: 398px;
+    margin-left: -10px;
+    color: #FFF;
+    font-family: Roboto;
+    /* font-size: 32px; */
+    font-size: 2.09vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+@media (max-width:522px) {
+        .footer-blue-container{
+            margin: auto;
+            max-width: 88vw;
+        }
+}
+
+
+@media (min-width:900px) and (max-width:1250px) {
+    .footer-blue-container{
+        height: 545px;
+    }
+    
+    .footer-h6-header{
+    font-size: 1.87vw;
+    width: 200px;
+    height: 38px;
+    }
+    
+    .footer-text{
+        font-size:1.68vw;
+    }
+    
+    
+    .footer-text-container {
+        margin-top: 125px;
+    }
+    
+    .footer-horizontal-line{
+        margin-top: 60px;
+        width: 85vw;
+        height: 2px;
+    }
+
+    
+    .footer-text-1{
+        width: 17.6vw;
+        height: 30vh;
+    }
+    .footer-text-2{
+        width: 17.6vw;
+        height: 30vh;
+    }
+    .footer-text-3{
+        width: 17.6vw;
+        height: 30vh;
+    }
+    
+    .footer-social-media{
+        margin-top: 15px;
+        padding: 0px 130px;
+    }
+    .footer-social-media svg{
+        margin: 0px 15px; 
+    }
+    
+    .footer-luxurycars{
+        width: 398px;
+        margin-left: -10px;
+        font-size: 32px;
+    }
+    
+}
+
+
+
+
+
+
+
+@media (min-width:650px) and (max-width:900px) {
+    .footer-blue-container{
+        height: 445px;
+    }
+    
+    .footer-h6-header{
+    font-size: 2vw;
+    width: 170px;
+    height: 32px;
+    }
+    
+    .footer-text{
+        font-size:1.80vw;
+    }
+    
+    
+    .footer-text-container {
+        margin-top: 90px;
+    }
+    
+    .footer-horizontal-line{
+        margin-top: 38px;
+        width: 88vw;
+        height: 2px;
+    }
+
+    
+    .footer-text-1{
+        width: 16.9vw;
+        height: 25vh;
+    }
+    .footer-text-2{
+        width: 16.9vw;
+        height: 25vh;
+    }
+    .footer-text-3{
+        width: 16.9vw;
+        height: 25vh;
+    }
+    
+    .footer-social-media{
+        margin-top: 15px;
+        padding: 0px 40px;
+    }
+    .footer-social-media svg{
+        width: 35px;
+        margin: 0px 10px; 
+    }
+    
+    .footer-luxurycars{
+        /* width: 398px; */
+        margin-left: -10px;
+        font-size: 32px;
+        font-size: 2.5vw;
+    }
+    
+}
+
+
+
+
+
+
+@media (min-width:500px) and (max-width:650px) {
+    .footer-blue-container{
+        height: 360px; 
+    }
+    
+
+    .footer-h6-header{  
+    font-size: 2.3vw;
+    width: 140px;
+    height: 12px;
+    }
+    
+    .footer-text{
+        font-size:2vw;
+    }
+    
+    
+    .footer-text-container {
+        margin-top: 70px;
+    }
+    
+    .footer-horizontal-line{
+        margin-top: 23px;
+        width: 88vw;
+        height: 2px;
+    }
+
+    
+    .footer-text-1{
+        width: 18.9vw;
+        height: 24vh;
+    }
+    .footer-text-2{
+        width: 18.9vw;
+        height: 24vh;
+    }
+    .footer-text-3{
+        width: 18.9vw;
+        height: 24vh;
+    }
+    
+    .footer-social-media{
+        margin-top: 15px;
+        padding: 0px 40px;
+    }
+    .footer-social-media svg{
+        width: 30px;
+        margin: 0px 10px; 
+    }
+    
+    .footer-luxurycars{
+        /* width: 398px; */
+        margin-left: -10px;
+        font-size: 15px;
+        font-size: 2.6vw;
+    }
+    
+}
+
+
+
+
+@media (min-width:350px) and (max-width:500px) {
+    .footer-blue-container{
+        height: 320px; 
+    }
+    
+    
+    .footer-h6-header{  
+    font-size: 3vw;
+    width: 140px;
+    height: 12px;
+    }
+
+    .footer-text-container p{
+        margin-bottom: 10px;
+    }
+    
+    .footer-text{
+        font-size:10px;
+    }
+    
+    
+    .footer-text-container {
+        margin-top: 50px;
+    }
+    
+    .footer-horizontal-line{
+        margin-top: 35px;
+        width: 83vw;
+        height: 2px;
+    }
+
+    
+    .footer-text-1{
+        width: 18.9vw;
+        height: 20vh;
+    }
+    .footer-text-2{
+        width: 18.9vw;
+        height: 20vh;
+    }
+    .footer-text-3{
+        width: 18.9vw;
+        height: 20vh;
+    }
+    
+    .footer-social-media{
+        margin-top: 5px;
+        padding: 0px 10px;
+    }
+    .footer-social-media svg{
+        width: 25px;
+        margin: 0px 10px; 
+    }
+    
+    .footer-luxurycars{
+        margin-left: -10px;
+        font-size: 15px;
+        font-size: 2.6vw;
+    }
+    
+}
+
+@media (min-width:200px) and (max-width:350px) {
+    .footer-blue-container{
+        height: 280px; 
+    }
+    
+    
+    .footer-h6-header{  
+    font-size: 3.1vw;
+    width: 140px;
+    height: 12px;
+    }
+
+    .footer-text-container p{
+        margin-bottom: 10px;
+    }
+    
+    .footer-text{
+        font-size:8px;
+    }
+    
+    
+    .footer-text-container {
+        margin-top: 40px;
+    }
+    
+    .footer-horizontal-line{
+        margin-top: 35px;
+        width: 83vw;
+        height: 2px;
+    }
+
+    
+    .footer-text-1{
+        width: 18.9vw;
+        height: 16vh;
+    }
+    .footer-text-2{
+        width: 18.9vw;
+        height: 16vh;
+    }
+    .footer-text-3{
+        width: 18.9vw;
+        height: 16vh;
+    }
+    
+    .footer-social-media{
+        margin-top: 4px;
+        padding: 0px 10px;
+    }
+    .footer-social-media svg{
+        width: 18px;
+        margin: 0px 6px; 
+    }
+    
+    .footer-luxurycars{
+        width: 398px;
+        margin-left: -10px;
+        font-size: 13px;
+    }
+    
+}

@@ -1,0 +1,251 @@
+.navbar{
+width: 100%;
+font-size: 1.5rem;
+color: #000;
+font-family: Roboto;
+min-height: 4.49513rem;
+height: auto;
+margin: 1.5vw 4.31vw 2vw 7.56vw;
+flex-shrink: 0;
+}
+
+  .navbar-nav .nav-link {
+    color: inherit;
+  }
+  
+  .navbar-nav .active .nav-link {
+    color: inherit;
+  }
+
+  .navbar-brand,
+.navbar-brand:focus,
+.navbar-brand:hover {
+  color: inherit !important;
+}
+
+  
+  @media (min-width: 768px) {
+    .navbar-nav .active::after {
+      content: '';
+      display: block;
+      height: 0.1875rem;
+      background-color: #f1bc00;
+      margin-top: 5px;
+    }
+  }
+
+
+  
+.navbar-brand{
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.nav-link{
+    color: #000;
+}
+
+
+.account_circle svg{
+    width: 35px;
+    height: 35px;
+    margin: 0px 4px;
+    flex-shrink: 0;
+}
+.navbar-nav li{
+    /* width: 5.4375rem; */
+height: 3.90238rem;
+flex-shrink: 0;
+    margin-left: 1.5vw;
+    margin-right: 1.75vw;
+}
+
+.ul li{
+    height: 2.5rem;
+}
+
+.navbar-nav home{
+    width: 5.4375rem;
+    height: 1.375rem;
+    flex-shrink: 0;
+}
+
+.navbar-nav services{
+    width: 7rem;
+height: 3.90238rem;
+flex-shrink: 0;
+}
+.navbar-nav blog{
+    width: 5.4375rem;
+height: 3.90238rem;
+flex-shrink: 0;
+}
+.navbar-nav contact_us{
+    width: 8.625rem;
+height: 3.90238vw;
+flex-shrink: 0;
+}
+
+
+
+
+@media (max-width: 355px) {
+    .navbar-brand{
+        font-size: 12px;
+    }
+    .navbar-nav account_circle{
+        width: 4px;
+    }
+    .navbar-nav{
+        font-size: 14px;
+    }
+    .account_circle{
+        padding-top: 10px;
+        margin: 3px;
+    }
+    .account_circle svg{
+        width: 25px;
+    }
+    .navbar-toggler{
+        margin: 3px auto;
+    }
+    .navbar-toggler span{
+        width: 20px;
+    }
+}
+
+
+@media (max-width: 292px){
+    .navbar-toggler{
+        margin: -20px auto;
+    }
+}
+@media (max-width: 568px){
+    .navbar{
+        margin-bottom: 0px;
+    }
+}
+
+
+
+@media (min-width: 355px) and (max-width: 576px){
+
+    .navbar{
+        width:95vw;
+        margin-top: auto;
+        font-size: 1rem;
+    }
+    .container {
+      margin: 5px auto;
+    }
+    .navbar-brand{
+        margin: 0px;
+        padding-top: 15px;
+        font-size: 1rem;
+    }
+
+    .account_circle{
+        padding-top: 10px;
+        font-size: 15px;
+    }
+    .account_circle svg{
+        width: 30px;
+    }
+
+    .navbar-toggler span{
+        width: 25px;
+    }
+    
+  }
+
+
+
+  
+  @media (min-width: 576px) and (max-width: 767px) {
+
+    .ul{
+        font-size: 1rem;
+    }
+    .ul li{
+        height: 2.5rem;
+        width: 5rem;
+        margin: 0px auto;
+    }
+
+    .navbar-toggler{
+        position: static;
+        right:0%;
+    }
+    
+    .container-2{
+        position: relative;
+        left: -50%;
+        top: 100%;
+    }
+    .container-3{
+        position: static;
+        left: 50%;
+    }
+    
+  }
+  
+  @media (min-width: 576px) and (max-width: 992px) {
+    .account_circle{
+        padding-top: 3px;
+        margin-left: 3px;
+    }
+    .navbar-brand{
+        margin-top: 10px;
+    }
+    .navbar{
+        width: 100vw;
+    }
+  }
+
+  @media (min-width: 576px) and (max-width: 1140px){
+    .container-2 .navbar-nav {
+        width: 2rem;
+    }
+
+  }
+
+  @media (min-width: 768px) and (max-width: 1140px){
+
+    
+    .container-1{
+        position: absolute;
+        left: -5%;
+    }
+    
+    .container-2{
+        position: absolute;
+        top: 0%;
+        left: 15%;
+    }
+    .container-3{
+        position: absolute;
+        right: -10%;
+    }
+}
+
+  @media (min-width: 1140px){
+        .container-2{
+        position: absolute;
+        left: 40%;
+        top: 7%;
+    }
+    .container-3{
+        position: absolute;
+        right: -10%;
+    }
+  }
+
+
+  @media (min-width: 992px) {
+    .account_circle{
+        padding-top: 3px;
+    }
+    .navbar-brand{
+        margin-top: 10px;
+    } 
+  }

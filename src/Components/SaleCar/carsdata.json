@@ -1,0 +1,52 @@
+[{
+    "id": "1",
+    "carTitle": "Dodge Charger",
+    "imageUrl": "https://s3-alpha-sig.figma.com/img/0b2d/f7ab/88b3840c06a95b37b46f049e9af4b575?Expires=1690761600&Signature=oDTBIiwpUn74OZp-AV2XhD2aMEU3kBwbSQbt6x6pI~ubkJCR5rm2~kpMlCnZ3jl8227kOuu~AyLV45LCwLTlTc88ca5Omm1JQfn2mDjH6kAblZvc4nOVYV9C5QqDQAEwIhAWUpSyPAz~ZhwNdtXkDRgCpZc5yGBpIxgjuVrkDeXfdOs3ihU~kgRXlMaMyZZaf32x6PPlk7rDwwCVgizn-0oJK4NmH0YSdLHcmhKrmjrBEltX9DQ6QotjGVHxApM5~TYuDilxCTH0GPBMzrFkKvdw3sxL~Y9P~ve~-ac3ushc3axj1J4xj0Ey24jSyl2XLChBR9FvM7l59N-5SIwGwQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+   
+  "details": {
+    "year": "2016",
+    "mileage": "15k",
+    "transmission": "Auto"
+  },
+  "price": "10.000$",
+  "action": "Rent"
+  },
+  {
+    "id": "2",
+    "carTitle": "Audi RS7",
+    "imageUrl": "https://s3-alpha-sig.figma.com/img/e01f/486e/5a08a7b3bbae91f0141836d3bc5c5aa6?Expires=1690761600&Signature=gdhmQGfBPS8Up8-a6WshF2SmK3FQ9JSbdnWfgyIakp74DLdvhpCPqDi0-e6wMyoXYAwmDrEQj6q6kVg8D~vJbr~Pig-Eko0hlENNIAWeqRr4~Fc-1yxCh3Nawa-kVzHNPhbCdAlM5sYUtsh1HJXZ5sUMOWosvEQkZiKMb~vGW7~R~U8CrWxOoxPtINyf9hAfKlxnapbNeAZS-TjUHkwod5JCNspvI5ar2cx1uSh8MW9klfD6Ze-XbO~8TbaCRQ1tq-TeZdriz8ccGm1QleuJcLB~NNECgJb6KGsxFGrWmkYXBaoFaXpdmO3UbVSf2C~lXWEHEaaZArB4UrHc9CyCrA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    "details": {
+      "year": "2016",
+      "mileage": "15k",
+      "transmission": "Auto"
+    },
+    "price": "60.000$",
+    "action": "Buy"
+  },
+  {
+    "id": "3",
+    "carTitle": "Audi RS7",
+    "imageUrl": "https://s3-alpha-sig.figma.com/img/e456/0d59/9f015538df1d27121250e7895afbdbfe?Expires=1690761600&Signature=ALaBZGVWBVrxdjuXaNEApt2lh0JlqzZEOAVrC-4Bjso36-e29FKXVTdvEqdrYUGDDczsbOyoLoybrNmxFY80Z7TKPPKIeNQwatsbW5wRZm3dPZAaSj8ElQ3lNI6Yq4d5eC4-kfzrmVwTutv56MAHBJF1cV7zxuncHckLCwUMd1l5QsksiPnzEDl3JeDL76SCAd7qYAyqeMp230jvzRHysikBWP-j6i3tJkMpt5gqiZcChq94YnBnEM228KHEnDYkqtWeeNsBk0~fb2K8qsHyBKxfY~Kh-VmrouyAQA9PN4AJ0Ea3MWssWsFxVg1IbURIYM13srRfAwsqFenSKxrL8w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    "details": {
+      "year": "2016",
+      "mileage": "15k",
+      "transmission": "Auto"
+    },
+    "price": "15.000$",
+    "action": "Rent"
+  },
+
+  {
+    "id": "4",
+    "carTitle": "Range Rover Velar",
+    "imageUrl": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSLZXsOCyKjYPT8_7WqFDjjQxikg2A5wJNTWnmaMdjkrSpuRJOd",
+    "details": {
+      "year": "2016",
+      "mileage": "15k",
+      "transmission": "Auto"
+    },
+    "price": "10.000$",
+    "action": "Rent"
+  }    
+
+  ]
