@@ -3,6 +3,8 @@
 import React from 'react';
 import "./Banner.css";
 import Navbar from '../Navbar/Navbar';
+import lambo1 from  '../../Assets/banner-lambo-1.png'
+import lambo2 from  '../../Assets/banner-lambo-2.png'
 
 const Banner = () => {
   return (
@@ -10,10 +12,13 @@ const Banner = () => {
       <Navbar/>
       <div className="banner">
   
-      <img  src="https://s3-alpha-sig.figma.com/img/78e0/0004/7fd4f62cf3e00b6b333ab8a884d35fed?Expires=1690156800&Signature=XoQ~7MhYXWCBKH4QGDSVjCEKJIJnD~P9hQ1KTAricULTgecoAB6ZQGM~iOQSzkfs1kJ-em6E9Gd-A-2wCIew2-UCZjtXbC0duW2w885RELx3GNe7wndRQmpml~zW1yTmvzECLnSE4qono1xnUs7K-4LMNInUv~txV63qmYKa-2SyW~eXpgI7MirJthGGWSScgURBQWOAMN9eR2XLrRPblTvtqI753bb~v7BCsmvxXhe85N6Iz~aeCygPvbKrkTrjRWEZl0ZH~D0coQVANrSValKwj1PNNjPPkEJYUGrtGAwFGPaZAl2Qzf4ibMfyH0zAIQMqbIXLqoBSKJ4MnkIuwA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="Banner Image" className="banner-image img-fluid urus-desktop" />
+      {/* <img  src="https://s3-alpha-sig.figma.com/img/78e0/0004/7fd4f62cf3e00b6b333ab8a884d35fed?Expires=1690156800&Signature=XoQ~7MhYXWCBKH4QGDSVjCEKJIJnD~P9hQ1KTAricULTgecoAB6ZQGM~iOQSzkfs1kJ-em6E9Gd-A-2wCIew2-UCZjtXbC0duW2w885RELx3GNe7wndRQmpml~zW1yTmvzECLnSE4qono1xnUs7K-4LMNInUv~txV63qmYKa-2SyW~eXpgI7MirJthGGWSScgURBQWOAMN9eR2XLrRPblTvtqI753bb~v7BCsmvxXhe85N6Iz~aeCygPvbKrkTrjRWEZl0ZH~D0coQVANrSValKwj1PNNjPPkEJYUGrtGAwFGPaZAl2Qzf4ibMfyH0zAIQMqbIXLqoBSKJ4MnkIuwA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="Banner 1" className="banner-image img-fluid urus-desktop" /> */}
+
+      <img src={lambo1}alt="Banner 1" className="banner-image img-fluid urus-desktop" />
 
 
-      <img src="https://s3-alpha-sig.figma.com/img/18bd/8614/31093a247817d85ddccb343b8b8c6068?Expires=1690761600&Signature=lIGcqj6gIJlvCN3seuO4nydq0Yw-WXkxxbVlz4HcQb5YRUiNE8S6KW7HDeRWvLHzGHH0b1SdjAPeZQLQ5ILm5AHRFVnxaid6MvJMtazizlXc2UIkPYHayRy0bSWO046xCvsZkQiMYxUCDi8ufvsSXIIeTe9xy9k0KCYXHvDeGTX6aQ~Oj7t-qkLNlPLdNwOBe4uop1L2BLxtva-Ytg1Jf9xjVkJRxufiMR2fIrlmpGVPeDl9Udfi7hxY9bxq8jdl-ZOsN8EKRHU-4cTxtxDTDYlmv7MPrL9JlIGwji2S~FW4LJu9EEAXmchcjADUyjjxAo8gSI35-2yStqoWJ76uJQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="Banner Image" className="banner-image img-fluid urus-mobile"/>
+      <img src={lambo2} alt="Banner 2" className="banner-image img-fluid urus-mobile"/>
+      {/* <img src="https://s3-alpha-sig.figma.com/img/18bd/8614/31093a247817d85ddccb343b8b8c6068?Expires=1690761600&Signature=lIGcqj6gIJlvCN3seuO4nydq0Yw-WXkxxbVlz4HcQb5YRUiNE8S6KW7HDeRWvLHzGHH0b1SdjAPeZQLQ5ILm5AHRFVnxaid6MvJMtazizlXc2UIkPYHayRy0bSWO046xCvsZkQiMYxUCDi8ufvsSXIIeTe9xy9k0KCYXHvDeGTX6aQ~Oj7t-qkLNlPLdNwOBe4uop1L2BLxtva-Ytg1Jf9xjVkJRxufiMR2fIrlmpGVPeDl9Udfi7hxY9bxq8jdl-ZOsN8EKRHU-4cTxtxDTDYlmv7MPrL9JlIGwji2S~FW4LJu9EEAXmchcjADUyjjxAo8gSI35-2yStqoWJ76uJQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="Banner 2" className="banner-image img-fluid urus-mobile"/> */}
 
 
 
